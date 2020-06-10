@@ -25,12 +25,12 @@ const Contact = () => {
               <div>
                 <div className="card-title text-muted h5">Email</div>
                 <div className="card-title text-muted pb-3">
-                  souns14@gmail.com
+                  sounsxyz@gmail.com
                 </div>
               </div>
               <div>
                 <div className="card-title h5 text-muted ">Call me</div>
-                <div className="card-title text-muted ">9677935225</div>
+                <div className="card-title text-muted ">9876543210</div>
               </div>
             </Card>
           </div>
