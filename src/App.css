@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  max-width: 1349px;
   font-family: "PT Serif", serif;
 }
 
@@ -235,36 +234,8 @@ svg circle:nth-child(1) {
 }
 
 .jumbotron {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.formCard {
-  position: relative;
-  background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
-  width: 75%;
-  height: 75%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  overflow: hidden;
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.formCard:hover {
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
-}
-
-.formCard:before {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: -50%;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  pointer-events: none;
-  z-index: 1;
+  background: #1b1a1a;
+  height: 300px;
 }
 
 .footer_content {
@@ -276,4 +247,21 @@ svg circle:nth-child(1) {
   margin-bottom: 30px;
   padding-top: 10px;
   font-style: oblique;
+}
+
+.fromGroup {
+  position: relative;
+  display: block;
+  border: 1px solid white;
+}
+
+.formControl {
+  border-bottom: 2px solid crimson;
+  background-color: #1b1a1a;
+  outline: 0;
+  width: 100%;
+  justify-content: center;
+  border-top: 2px solid #1b1a1a;
+  border-left: 2px solid #1b1a1a;
+  border-right: 2px solid #1b1a1a;
 }

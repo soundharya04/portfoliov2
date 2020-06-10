@@ -38,24 +38,36 @@ const Contact = () => {
             <h2 className="display-4 mb-3">
               <span>Contact Me</span>
             </h2>
-            <div className="jumbotron text-center formCard">
-              <div className="form-group ">
+            <div className="jumbotron text-center  pb-3 w-75">
+              <div className="formGroup text-white ">
                 <input
-                  className="form-control text-dark"
+                  className="formControl text-white mb-3"
                   type="text"
+                  placeholder="Enter Name"
                   id="name"
-                  placeholder="Enter name"
+                  autoComplete="off"
                 ></input>
+
+                <div className=" mb-3">
+                  <input
+                    className="formControl text-white mb-3"
+                    placeholder="Enter email"
+                    type="email"
+                    autoComplete="off"
+                    id="email"
+                  ></input>
+                </div>
+                <div className="">
+                  <textarea
+                    className="formControl text-white "
+                    type="email"
+                    autoComplete="off"
+                    id="email"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
               </div>
-              <div className="form-group mb-3">
-                <input
-                  className="form-control text-dark"
-                  type="email"
-                  id="email"
-                  placeholder="Enter email"
-                ></input>
-              </div>
-              <button className="btn btn-white" type="button">
+              <button className="btn mt-3 btn-white" type="button">
                 SUBMIT
               </button>
             </div>
@@ -64,7 +76,7 @@ const Contact = () => {
       </div>
       <footer className="pt-2 pb-1">
         <div className=" container-fluid  footer_content">
-          SOUNDHARYA KANNAN <span className="footer_clr">©2020</span>
+          COPYRIGHTS <span className="footer_clr">©2020</span>
         </div>
       </footer>
     </Section>
