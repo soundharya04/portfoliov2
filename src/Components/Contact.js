@@ -39,7 +39,7 @@ const Contact = () => {
               <span>Contact Me</span>
             </h2>
             <div className="jumbotron text-center  pb-3 w-75">
-              <div className="formGroup text-white ">
+              <div className="formGroup text-white pb-3">
                 <input
                   className="formControl text-white mb-3"
                   type="text"
@@ -66,10 +66,10 @@ const Contact = () => {
                     placeholder="Message"
                   ></textarea>
                 </div>
+                <button className="btn mt-3 btn-white" type="button">
+                  SUBMIT
+                </button>
               </div>
-              <button className="btn mt-3 btn-white" type="button">
-                SUBMIT
-              </button>
             </div>
           </div>
         </div>
